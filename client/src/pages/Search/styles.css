@@ -1,0 +1,11 @@
+  .d-flex {
+    justify-content: center;
+}
+
+.display-message {
+    color:#faf8f8;
+}
+
+.text-center {
+    padding-bottom: 32px;
+}

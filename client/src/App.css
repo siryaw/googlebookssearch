@@ -1,24 +1,30 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Noto Sans JP', sans-serif !important;
+  background-color: #424242;
+  color:#b6b6b6 !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.btn {
+  box-shadow: none !important; /* Removes blue halo */
+  border: none !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.btn:hover {
+  box-shadow: none !important; /* Removes blue halo */
+  border: none !important;
 }
 
-.App-intro {
-  font-size: large;
+.form-control {
+  box-shadow: none !important; /* Removes blue halo */
+  border: none !important;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.FormBtn {
+  box-shadow: none !important; /* Removes blue halo */
+}
+
+.btn:focus {
+  background-color: #fff !important;
+  color: #121212 !important;
+  cursor: pointer !important;
 }

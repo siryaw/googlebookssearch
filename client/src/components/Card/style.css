@@ -1,0 +1,23 @@
+.list-overflow-container {
+    max-height: 545px;
+    border: none !important;
+    border: solid 1px #b6b6b6;
+    border-radius: 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-group-item  {
+  
+    background-color: green;
+    color:#fffefe;
+    border: none !important;
+    border-radius: 7px !important;
+    padding: 50px;
+    margin-bottom: 10px;
+
+}
